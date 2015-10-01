@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-08-31 11:58:07
+ * @version $Id$
+ */
+.borBottom{border-bottom: 2px solid #d8d8d8;}
+.ucenter{min-height: 500px;margin-top: 50px;}
+.ucenter>.hd{width: 140px;height: 100%;cursor: pointer;}
+.ucenter>.hd>ul>li{background-color: #00a085;color: #fff;font-size: 120%;line-height: 40px;text-align: center;}
+.hd>ul>li.dropDown_sub{background-color: #e5e5e5;display: none;color: #000;}
+.ucenter>.hd>ul>li.on{background-color: #01715e;color: #fff;}
+.ucenter>.bd{width: 960px;min-height: 500px;padding-left: 99px;border-left: 1px solid #d8d8d8;font-size: 110%;}
+.ucenter>.bd>ul>li{height: 500px;}
+.ucenter>.bd .basicInfo>li{height: 50px;line-height: 50px;}
+.title{background-color: #e5e5e5;}
+.lebal{width: 80px;text-align: right;padding-right: 15px;}
+.val{width: 100px;}
+
+.buyInUcenter>.hd>ul{background-color: #e5e5e5;height: 50px;line-height: 50px;}
+.buyInUcenter>.hd>ul>li{width: 120px;padding: 0 15px;cursor: pointer;}
+.buyInUcenter>.hd>ul>li.on{background-color: #ccc;}
+.buyInUcenter>.bd>ul>li>ul>li{line-height: 40px;border-bottom: 1px solid #d8d8d8;padding: 0 15px;}
+.buyInUcenter>.bd .detail{padding: 20px 40px;line-height: 50px;border-bottom: 1px solid #d8d8d8;}
+.buyOutUcenter>.hd>ul{background-color: #e5e5e5;height: 50px;line-height: 50px;}
+.buyOutUcenter>.hd>ul>li{width: 120px;padding: 0 15px;cursor: pointer;}
+.buyOutUcenter>.hd>ul>li.on{background-color: #ccc;}
+.buyOutUcenter>.bd>ul>li>ul>li{line-height: 40px;border-bottom: 1px solid #d8d8d8;padding: 0 15px;}
+.buyOutUcenter>.bd .detail{padding: 20px 40px;line-height: 50px;border-bottom: 1px solid #d8d8d8;}
+.msgUcenter>.hd>ul{background-color: #e5e5e5;height: 50px;line-height: 50px;}
+.msgUcenter>.hd>ul>li{width: 120px;padding: 0 15px;cursor: pointer;}
+.msgUcenter>.hd>ul>li.on{background-color: #ccc;}
+.msgUcenter>.bd>ul>li>ul>li{line-height: 40px;border-bottom: 1px solid #d8d8d8;padding: 0 15px;}
+.msgUcenter>.bd .detail{background-color: #e5e5e5;padding: 20px 40px;line-height: 50px;}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-08-27 14:24:26
+ * @version $Id$
+ */
+/*子目录*/
+.subNav{border-bottom: 1px solid #d8d8d8;padding: 15px 0;}
+.subNav a{padding: 0 27px;border-left: 1px solid #d8d8d8;}
+.subNav a.none{border: 0;}
+/*筛选*/
+.goodsType .hd,
+.goodsType .all,
+.area .hd,
+.area .all{width: 100px;}
+.goodsType{padding: 10px 50px;border: 1px solid #d8d8d8;}
+.goodsType .letter,
+.goodsType .type,
+.area .bd{width: 898px;}
+.area .bd{margin-top: -12px;}
+.goodsType .letter a{padding: 0 12px;}
+.area .bd a{padding: 5px;margin: 12px 0 0 12px;}
+.goodsType .type a{width: 88px;padding: 5px;border: 1px solid #d8d8d8;text-align: center;margin: 12px 0 0 12px;}
+.area{padding: 10px 50px;border: 1px solid #d8d8d8;border-top: 0;}
+.all>a{padding: 3px 8px;}
+a.active{background-color: #01715e;color: #fff;}
+/*商品列表*/
+.goodsList{width: 1266.66px;margin-left: -66.66px;}
+.goodsList>li{width: 250px;margin: 20px 0 0 66.66px;padding: 15px;border: 1px solid #d8d8d8;}
+.goodsList>li img{width: 100%;}
+.goodsList .hd{font-size: 120%;margin: 20px 0;}
+.goodsList .tag{}
+.goodsList .tag .fr{color: #f00;}
+.goodsList .add{color: #ff6000;margin: 10px 0;}
+.goodsList .time{color: #6b6b6b;}
+
+.goodsType .type a.on{background-color: #01715e;color: #fff;}
+.area .bd a.on{background-color: #01715e;color: #fff;}

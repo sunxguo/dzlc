@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-08-31 10:30:57
+ * @version $Id$
+ */
+.mb50{margin-bottom: 50px;}
+.ip{border-top: 2px solid #00a085;position: relative;} 
+.ip .img{width: 600px;}
+.ip .img>img{width: 100%;}
+.ip .des{width: 300px;padding: 50px 150px;color: #6b6b6b;}
+.ip .des h3{}
+.ip .des .tip{padding: 20px 0;font-size: 30px;font-weight: bold;color: #000;}
+.ip .des p{line-height: 30px;height: 180px;overflow: hidden;}
+.ip .des .inMore{color: #ffc681;display: block;border: 1px solid #ffc681;width: 100px;text-align: center;padding: 5px;border-radius: 12px;margin: 10px;}
+.ip .pos_r,.ip .pos_l{position: absolute;top: -35px;background-color: #00a085;color: #fff;padding: 8px 12px;border-radius: 4px;}
+.ip .pos_r{right: 10px;}
+
+
+.itemIp{padding: 0 150px;}
+.itemIp h2{padding: 50px 0;text-align: center;}
+.itemIp p{line-height: 24px;margin-bottom: 20px;text-indent: 28px;font-size: 16px;}
+.itemIp img{width: 100%;}

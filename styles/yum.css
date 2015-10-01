@@ -1,0 +1,238 @@
+/* CSS yumlee V1.0 543265835@qq.com 理念：清除和重置是紧密不可分的 特色：1.适应中文 2.基于最新主流浏览器 3.PC*/
+@charset "UTF-8";
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea,form /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 { font-size: 42px;font-weight: normal; }
+h2 { font-size: 24px;font-weight: normal; }
+h3 { font-size: 16px;font-weight: normal; }
+h4, h5, h6 { font-size: 100% }
+
+address, cite, dfn, em, var { font-style: normal } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace } /* 统一等宽字体 */
+small { font-size: 12px } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none }
+
+/* 重置文本格式元素 */
+a { text-decoration: none;color: #000 }
+
+/* 重置表单元素 */
+legend { color: #000 } /* for ie6 */
+fieldset, img { border: none } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%
+}/* 使得表单元素在 ie 下能继承字体大小 */
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+/* ==========================================================================
+    Global
+   ========================================================================== */
+/* 设置默认字体 */
+body { /* for ie */
+    font: 14px/1 "Microsoft YaHei";
+    /*font: 16px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    /*font: 16px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+    /*font: 16px/1 "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;*/
+    /*background-color: #fff;*/
+    /*color: #333;*/
+}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+/*超出省略*/
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.tc{text-align: center;}
+li>a {
+    display: block;
+}
+/*flex*/
+.flex:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+.flex>* {float: left;}
+.fl{float: left;}
+.fr{float: right;}
+.hide {
+    display: none;
+}
+.pos_r {position: relative;}
+.fullCol {
+    width: 100%;
+}
+/* ==========================================================================
+    Page
+   ========================================================================== */
+.page{margin-top: 100px;}
+.page ul li>a{padding: 10px;border: 1px solid #d8d8d8;margin: 0 5px;}
+.pageJump{padding: 0 20px;}
+.pageJump input{padding: 10px;border: 1px solid #d8d8d8;margin: 0 5px;}
+.pageJump input[type="number"]{width: 60px;}
+/*<form class="page container flex">
+    <ul class="flex">
+        <li><a href="#">第一页</a></li>
+        <li><a href="#">上一页</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">21</a></li>
+        <li><a href="#">下一页</a></li>
+        <li><a href="#">最后页</a></li>
+    </ul>
+    <div class="pageJump">跳到<input type="number" value="1" min="1" />页<input type="submit" value="GO" /></div>
+</form>*/
+/* ==========================================================================
+    Header
+   ========================================================================== */
+.header {
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #e1e1e1;
+    height: 36px;
+    line-height: 36px;
+    min-width: 1200px;
+}
+.header a {
+    color: #444;
+}
+/* ==========================================================================
+    Footer
+   ========================================================================== */
+.footer {
+    background-color: #e5e5e5;
+    border-top: 40px solid #01715e;
+    color: #01715e;
+    margin-top: 100px;
+    position: relative;
+    min-width: 1200px;
+    height: 275px;
+}
+.footer a {
+    color: #01715e;
+}
+.ill {
+    padding: 15px 0 0 320px;
+}
+.ill>dl {
+    margin-left: 50px;
+    width: 170px;
+    line-height: 26px;
+}
+.ill>dl>dt {
+    color: #ccc;
+    font-size: 20px;
+}
+.copy {
+    background-color: #222;
+    border-top: 1px solid #252525;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+/* ==========================================================================
+    Nav/Fixed
+   ========================================================================== */
+.nav {
+    text-align: center;
+    position: relative;
+    min-width: 1200px;
+    background-color: #00a085;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #017152;
+}
+.nav a {
+    color: #fff;
+}
+.nav a:hover,
+.nav .active {
+    background-color: #01715e;
+    color: #fff;
+}
+.nav>ul {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav>ul>li {
+    font-size: 120%;
+    width: 10%;
+}
+/*backTop*/
+.menuAside {
+    background-color: #808080;
+    display: block;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+}
+/* ==========================================================================
+    Crumb
+   ========================================================================== */
+.crumb {
+    /*background-color: #ea4848;*/
+    padding: 15px 0;
+    /*color: #fff;*/
+}
+.crumb>a {
+    margin: 0 10px 0 3px;
+    font-size: 14px;
+    /*color: #fff;*/
+}
+/* ==========================================================================
+    Form
+   ========================================================================== */
+ /*去掉苹果表单样式*/
+select,button,input[type="text"],input[type="password"],input[type="submit"] {
+}
+input {
+    background: #fff;
+    outline: none;
+    border: 0;
+    outline: none;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+/*button*/
+.btn{padding: 15px 25px;border: 1px solid #ccc;}
+/*******************searchBox*******************/
+.searchBox {}
+.searchBox input {
+    padding: 12px 20px;
+}
+.searchBox input[type="text"] {
+    border: 1px solid #797979;
+    border-right: 0;
+}
+.searchBox input[type="submit"] {
+    background-color: #00a085;
+    border: 1px solid #00a085;
+    color: #fff;
+}

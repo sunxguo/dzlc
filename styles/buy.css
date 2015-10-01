@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-09-01 16:46:57
+ * @version $Id$
+ */
+.buy{border: 1px solid #d8d8d8;margin-top: 50px;padding: 50px 0;font-size: 16px;}
+.buy .hd{border-bottom: 1px solid #00a085;}
+.buy .hd ul{width: 256px;margin: 0 auto;}
+.buy .hd li{padding: 12px 32px;background-color: #00a085;color: #fff;cursor: pointer;}
+.buy .hd li.on{background-color: #01715e;}
+.buy .bd{line-height: 40px;}
+.buy .bd input{border: 1px solid #d8d8d8;padding: 12px 20px;}
+.things>div,
+.person>div{margin-bottom: 20px;}
+.things .number input{width: 120px;}
+.things .chose select{width: 100px;height: 43px;margin-left: 20px;}
+.textarea textarea{width: 238px;height: 90px;resize: none;}
+.things,.person{padding: 50px 400px;}
+.person{border-top: 1px solid #d8d8d8;}
+.label{width: 100px;text-align: center;}
+.submit{}
+.bd .submit input{background-color: #f39801;color: #fff;width: 180px;padding: 12px 0;border: 1px solid #000;margin-left: 100px;}

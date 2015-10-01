@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-08-31 08:48:08
+ * @version $Id$
+ */
+.finance{border: 1px solid #d8d8d8;padding: 0 20px;}
+.finance .main{width: 828px;}
+.finance .side dt,
+.finance .main dt{border-left: 3px solid #00a085;margin: 5px 0;line-height: 24px;padding: 0 5px;font-size: 110%}
+.finance .side>dd,
+.finance .main>dd{padding: 20px 0;border-top: 1px solid #d8d8d8;}
+.finance .main .img{width: 400px;}
+.finance .main .img img{width: 100%;height: 100%;}
+.finance .main .des{width: 428px;padding: 0 10px 0 20px;border-right: 1px solid #d8d8d8;}
+.finance .main .des>dt>a{color: #f00;font-size: 130%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;display: block;}
+.finance .main .des>dd>p{padding: 6px 0;color: #6b6b6b;text-indent: 28px;}
+.finance .side{width: 330px;padding-left: 15px;}
+.finance .side li{padding: 7.5px 0;}
+.finance .side li .img{width: 35%;margin: 15px 5% 0 0;}
+.finance .side li .des{width: 60%;margin-top: 15px;}
+.finance .side li .des>p{text-indent: 28px;color: #6b6b6b;}
+
+.financeList .main{border: 1px solid #d8d8d8;width: 798px;padding: 20px;margin: 30px 20px 0 0;line-height: 24px;}
+.financeList .main>ul{margin-bottom: 20px;}
+.financeList .main a:visited{color: #f00;}
+.financeList .side{width: 340px;}
+
+.side .side_gg li{background-color: #eee;margin-top: 30px;border: 1px solid #888;}
+.side .side_gg li img{width: 100%;}

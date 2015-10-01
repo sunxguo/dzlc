@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url(global.css);
+/**
+ * @authors Yumlee (543265835@qq.com)
+ * @date    2015-08-27 16:43:14
+ * @version $Id$
+ */
+.slideItem{width:335px;position:relative;overflow:hidden;zoom:1;margin-right: 65px;}
+.slideItem .hd{width:100%;padding-top:5px;overflow:hidden;}
+.slideItem .hd ul{margin-right:-5px;overflow:hidden;zoom:1;}
+.slideItem .hd ul li{padding-top:5px;float:left;text-align:center;}
+.slideItem .hd ul li img{width:76px;height:65px;border:2px solid #ddd;cursor:pointer;margin-right:5px;}
+.slideItem .hd ul li.on{background:url("images/icoUp.gif") no-repeat center 0;}
+.slideItem .hd ul li.on img{border-color:#f60;  }
+.slideItem .bd li{vertical-align:middle; }
+.slideItem .bd img{width:100%;height:230px;display:block;}
+
+/*des*/
+.good{border: 1px solid #d8d8d8;padding: 15px;}
+.desItem{width: 768px;}
+.desItem .hd{padding: 24px 0;line-height: 20px;}
+.desItem .tit{font-size: 130%;font-weight: bold;margin-right: 20px;}
+.desItem .time{color: #888;}
+.desItem .view{border: 1px solid #d8d8d8;float: right;padding: 5px;}
+.desItem .detail{background-color: #eee;padding: 20px;line-height: 30px;}
+.desItem .detail span{display: inline-block;width: 280px;}
+.desItem .detail .price{color: #f00;font-size: 120%;}
+.desItem .detail .com a{color: #102ee2;}
+.desItem .InOut{border-top: 3px double #b2e2da;padding-top: 40px;margin-top: 10px;}
+.desItem .InOut>a{background-color: #f39800;color: #fff;margin: 12px;padding: 5px 15px;}
+
+/*company*/
+.company dt{border: 1px solid #d8d8d8;padding: 8px;}
+.company dt>div{background-color: #ccc;border-left: 12px solid #00a085;line-height: 35px;font-size: 150%;padding-left: 15px;}
+.company dd{padding: 10px 50px;}
+.company dd .title{border-bottom: 1px solid #00a085;line-height: 28px;font-size: 120%;font-weight: bold;}
+.company dd .detail{margin: 100px 0;}
+.company dd .detail h3{font-weight: bold;font: 130%;line-height: 50px;}
+.company dd .detail p{line-height: 26px;}
+.company dd .detail .img{width: 300px;margin-right: 50px;}
+.company dd .detail .img>img{width: 100%;}
+.company dd .detail .text{width: 750px;}
+.company dd .detail.other .img{width: 760px;margin: 80px auto 50px auto;}
+.company dd .detail.other .text{width: 100%;margin-top: 80px;}
